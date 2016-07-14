@@ -1,3 +1,18 @@
+document.write(`<!DOCTYPE html>
+  <html>
+    <head>
+      <!-- resizing screen for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--importing css to html-->
+      <link rel="stylesheet" type="text/css" href="index.css">
+      
+      <title>3dankmemes</title>
+      
+    </head>
+    <body>
+    </body>
+  </html>
+`);
 document.write("<div id=\"header\"><p class=\"hak\">5 memes</p></div><center><div class=\"container-fluid\"><br>");
 $.getJSON('test_data.json', function (data) {
     for(i=0;i<5;i++){
